@@ -3,26 +3,32 @@
 
 <head>
     <meta-charset="UTF-8">  
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+    <link rel="reset stylesheet" href="./assets/CSS/reset.css" />
     <title>Brenn Voyles' Portfolio</title>
 </head>
-
+<hr />
 <!-- Name and links -->
 <body>
-    <header>
+    <header class="header">
         <h1>Brenn Voyles</h1>
         <nav>
             <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#project-section">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-<!-- About me -->
-   <h2>About Me</h2>
-<section class="about-me">
-        <img src="./assets/porfolio-pic2.jpg" alt="Profile Picture">
+<hr />
+<div>
+    <h2>About Me</h2>
+</div>
+<hr />
+    <!-- About me -->
+   <section id="about-me">
+    
+        <img src="./assets/Images/porfolio-pic2.jpg" alt="Profile Picture">
          <p>
                 Originally from Southern Illinois, I moved to Pennsylvania in 2016. 
                 I attended Southern Illinois University and graduated in 2013 with a Bachelor's in Science in Dental Hygiene.
@@ -35,26 +41,36 @@
             </p>
     </section>
 
-    <!-- Projects -->
-    <main class="projects">
+    <hr />
+    
+<!-- Projects -->
+    <div>
         <h2>Projects</h2>
-        <div>
-            Horiseon
-            <img src="./assets/horiseon-screenshot.png" alt="Horiseon refactor" id="horiseon">
+    </div>
+    <hr />
+    <main id="project-section">
+        <div class="container">
+        <div class="project-images">
+            <a href= "https://brennaveir.github.io/Horiseon-Refactor/"><img src="./assets/Images/horiseon-screenshot.png" alt="Horiseon refactor" id="horiseon" class="projects"></a>
+            <img src="./assets/Images/coming-soon.png" class="projects" id="project1">
+            <img src="./assets/Images/coming-soon.png" class="projects" id="project2">
+            <img src="./assets/Images/coming-soon.png" class="projects" id="project3">
+            <img src="./assets/Images/coming-soon.png" class="projects" id="project4">
+            <img src="./assets/Images/coming-soon.png" class="projects" id="project5">
+            <img src="./assets/Images/coming-soon.png" class="projects" id="project6">
+            <img src="./assets/Images/coming-soon.png" class="projects" id="project7">
+            <img src="./assets/Images/coming-soon.png" class="projects" id="project8">
         </div>
-        <div>Coming soon</div>
-        <div>Coming soon</div>
-        <div>Coming soon</div>
-        <div>Coming soon</div>
-        <div>Coming soon</div>
-        <div>Coming soon</div>
+    </div>
     </main>
-
-    <footer>
-        <div>Contact</div>
-        <div>Github</div>
-        <div>LinkedIn</div>
-        <div>Email</div>
+    <hr />
+     <h2>Contact</h2>
+     <hr />
+    <footer id="contact">
+       
+        <div><a href="#">Github</a></div>
+        <div><a href="#">LinkedIn</a></div>
+        <div><a href="#">Email</a></div>
     
     </footer>
 </body>
