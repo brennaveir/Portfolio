@@ -19,13 +19,14 @@ hr {
     border: 5px solid var(--yellow);
 }
 
-h2 {
+.section-header {
     font-size:36px;
 }
 
 .header {
 background-color: var(--pink);
 display: flex;
+flex-wrap:wrap;
 justify-content: space-around;
 }
 
@@ -71,7 +72,7 @@ background-color: var(--brown);
 padding: 80px;
 display: flex;
 flex-wrap: wrap;
-flex-direction: row;
+/* flex-direction: column; */
 /* margin:10px; */
 }
 
@@ -82,7 +83,7 @@ border: 10px solid var(--yellow);
 }
 
 #about-me p {
-height: 270px;
+height: 350px;
 width: 500px;
 font-size: 22px;
 color: var(--pink);
