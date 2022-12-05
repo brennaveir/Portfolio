@@ -56,6 +56,11 @@ display: inline-block;
 text-decoration: none;
 }
 
+.header a:hover{
+    font-size: larger;
+    font-style: oblique;
+}
+
 h2 {
 padding: 5px;
 color: var(--yellow);
@@ -109,63 +114,25 @@ background-color: var(--brown);
     }
 
 
-#project1,
+
 #project3,
 #project4,
-#project5,
-#project6,
-#project7,
-#project8 {
+#project5 {
     /* height: 15%; */
     width: 75%;
     padding:10px
 }
 
+#prework {
+   width: 70%;
+    padding:10px
+} 
+
 .projects-container span {
     font-size: 24px;
 }
 
-#prework {
-   
-    width: 90%;
-    padding:10px
-} 
-/*  
-#project3 {
-    height: 15%;
-    width: 15%;
-    padding:10px
-} 
 
-#project4 {
-    height: 15%;
-    width: 15%;
-    padding:10px
-    } 
-
-#project5 {
-    height: 15%;
-    width: 15%;
-    padding:10px
-}
-
-#project6 {
-    height: 15%;
-    width: 15%;
-    padding:10px
-}
-
-#project7 {
-    height: 15%;
-    width: 15%;
-    padding:10px
-}
-
-#project8 {
-    height: 15%;
-    width: 15%;
-    padding:10px;
-    } */
 
 
 
@@ -181,7 +148,7 @@ background-color: var(--brown);
     background-color: var(--yellow);
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 75px;
     align-items: center;
     
 }
@@ -192,10 +159,11 @@ background-color: var(--brown);
 
 #contact a {
     background-color: var(--yellow);
+    font-size: 30px;
 }
 
 #contact a:hover {
-font-size: 24px;
+font-size: 50px;
 font-style: oblique;
 }
 
