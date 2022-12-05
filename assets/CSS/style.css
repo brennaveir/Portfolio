@@ -173,17 +173,65 @@ font-style: oblique;
     .projects-container {
         flex-wrap:wrap;
     }
+
+    #horiseon {
+        width:50%;
+    }
+
+    #project3,
+    #project4,
+    #project5 {
+    width: 40%;
+    padding:10px
 }
+    #prework {
+    width: 45%;
+     padding:10px
+ } 
+ 
+
+}
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 768px) {
     .projects-container {
      flex-wrap:wrap;  
     }
+    #horiseon {
+        width:50%;
+    }
+
+    #project3,
+    #project4,
+    #project5 {
+    width: 40%;
+    padding:10px
+}
+    #prework {
+    width: 45%;
+     padding:10px
+ } 
+ 
 }
 
 @media only screen and (max-width: 1185px) {
     .projects-container {
     flex-wrap:wrap;  
    }
+   #horiseon {
+    width:50%;
+}
+
+#project3,
+#project4,
+#project5 {
+width: 40%;
+padding:10px
+}
+#prework {
+width: 45%;
+ padding:10px
+} 
+
 }
