@@ -168,3 +168,22 @@ font-style: oblique;
 }
 
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .projects-container {
+        flex-wrap:wrap;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+    .projects-container {
+     flex-wrap:wrap;  
+    }
+}
+
+@media only screen and (max-width: 1185px) {
+    .projects-container {
+    flex-wrap:wrap;  
+   }
+}
