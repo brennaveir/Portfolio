@@ -107,9 +107,18 @@ background-color: var(--brown);
     width: 95%;
     }
 
+#alabaster-alligator {
+    width: 85%;
+}
 
+#weather-dashboard {
+    width: 85%;
+}
 
-#project3,
+#work-day-scheduler {
+    width: 95%;
+}
+
 #project4,
 #project5 {
     width: 75%;
