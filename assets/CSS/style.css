@@ -119,6 +119,10 @@ background-color: var(--brown);
     width: 95%;
 }
 
+#vilca-events {
+    width: 25%;
+}
+
 #project4,
 #project5 {
     width: 75%;
@@ -203,8 +207,11 @@ font-style: oblique;
     width: 45%;
      padding:10px
  } 
+
+
+ }
  
-}
+
 
 @media only screen and (max-width: 1185px) {
     .projects-container {
